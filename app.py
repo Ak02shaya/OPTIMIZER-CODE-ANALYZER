@@ -4,7 +4,7 @@ from analysis_routes import analysis_bp
 import os
 
 def create_app():
-    app = Flask(__name__, template_folder='.')
+    app = Flask(__name__)
     app.config['UPLOAD_FOLDER'] = 'uploads'
     app.secret_key = 'supersecretkey'
 
@@ -20,6 +20,7 @@ def create_app():
 
     return app
 
+app = create_app()
+
 if __name__ == '__main__':
-    app = create_app()
     app.run(debug=True, port=3000)
