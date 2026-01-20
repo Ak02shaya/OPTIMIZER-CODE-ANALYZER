@@ -1,7 +1,1 @@
-__pycache__/
-*.pyc
-uploads/
-app.log
-test_file.py
-verify_frontend.py
-.env
+
