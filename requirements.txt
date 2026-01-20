@@ -1,1 +1,6 @@
-
+flask
+pylint
+bandit
+radon
+autopep8
+flake8
